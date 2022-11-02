@@ -12,7 +12,7 @@ client = tweepy.Client( bearer_token="AAAAAAAAAAAAAAAAAAAAAGvYiAEAAAAA%2BhyGSMkt
                         wait_on_rate_limit=True)
 
 # Define query
-query = 'gran hermano'
+query = 'query'
 
 tweets = client.search_recent_tweets(query=query,
                                      max_results=100)
